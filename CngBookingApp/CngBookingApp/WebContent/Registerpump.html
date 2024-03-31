@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+ 
+              
+  <body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">Maharashtra CNG Station</a>
+      <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+      <!-- Navbar Right Menu-->
+      <ul class="app-nav">
+       
+        
+        <!-- User Menu-->
+        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+          <ul class="dropdown-menu settings-menu dropdown-menu-right">
+            <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="">
+        <div>
+          <p class="app-sidebar__user-name">Register pump page</p>
+        </div>
+      </div>
+     
+        </li>
+      
+        </li>
+       
+        </li>
+        <li><a class="app-menu__item" href="index.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Back to home</span></a></li>
+      </ul>
+    </aside>
+    <main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-edit"></i> REGISTER NEW PUMP</h1>
+          <p>WELCOME NEW USER</p>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+          
+          <li class="breadcrumb-item"><a href="login.html">HOME</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="tile">
+            <h3 class="tile-title">Register Pump</h3>
+            <div class="tile-body">
+            
+            
+            
+            
+            
+              <form action="Registerpump" method="post">
+          
+             <div class="form-group">
+                  <label class="control-label">Name</label>
+                  <input class="form-control" type="text" placeholder="Enter full name" name="pname">
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Mobile</label>
+                  <input class="form-control" type="text" placeholder="Enter Mobile No" name="mobile">
+                </div>
+                 <div class="form-group">
+                  <label class="control-label">Password</label>
+                  <input class="form-control" type="password" placeholder="Create new password" name="password">
+                    <label class="control-label">PUMP OPEN TIME</label>
+                  <input class="form-control" type="text" placeholder="opening time"  name="opentime"> 
+                   <label class="control-label">PUMP CLOSE TIME</label>
+                  <input class="form-control" type="text" placeholder="Closing time" name="closetime">
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Address</label>
+                  <textarea class="form-control" rows="4" placeholder="Enter your address" name="address"></textarea>
+                </div>
+                
+                  
+                 <div class="form-group ">
+                  <label class="control-label ">City</label>
+                 
+                    <input class="form-control" type="text" placeholder="Ctiy name" name="pcity">
+                  </div>
+                 
+                
+                <div class="form-group ">
+                  <label class="control-label ">Taluka</label>
+                  
+                    <input class="form-control " type="text" placeholder="taluka" name="ptaluka">
+                  </div>
+                  
+               
+                <div class="form-group ">
+                <label class="control-label ">District</label>
+                  
+                    <input class="form-control " type="text" placeholder="district" name="pdistrict">
+                  </div>
+                
+                  
+                  <div class="form-group ">
+                <label class="control-label ">latitude</label>
+                  
+                    <input class="form-control " type="text" placeholder="latitude" name="latitude">
+                  </div>
+                  
+                  <div class="form-group ">
+                <label class="control-label ">Longitude</label>
+                
+                    <input class="form-control " type="text" placeholder="longitude" name="longitude">
+                  </div>
+                  
+               
+                <div class="form-group ">
+                <label class="control-label ">CNG/KG</label>
+                   
+                    <input class="form-control " type="text" placeholder="CNG in KG's" name="cngkg">
+                  </div>
+                
+                 
+                   <div class="tile-footer">
+              <button class="btn btn-primary" type="submit"><i class="fa fa-fw fa-lg fa-check-circle"></i>Register</button>&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Cancel</a>
+            </div>
+             
+                </form> 
+             
+             
+             
+                 
+          
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    <!-- Google analytics script-->
+    <script type="text/javascript">
+      if(document.location.hostname == 'pratikborsadiya.in') {
+      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      	ga('create', 'UA-72504830-1', 'auto');
+      	ga('send', 'pageview');
+      }
+    </script>
+  </body>
+</html>
